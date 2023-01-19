@@ -20,6 +20,14 @@
         </repository>
     </distributionManagement>
 
+    <repositories>
+        <repository>
+            <id>TRGRepo-releases</id>
+            <name>The TRG repository</name>
+            <url>https://maven.tresearchgroup.tech/releases</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>tech.tresearchgroup.palila</groupId>
